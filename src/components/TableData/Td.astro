@@ -1,0 +1,12 @@
+---
+const {colspan, englishTitle,arabicTitle, content, width} = Astro.props;
+---
+<td dir="ltr" colspan={colspan} width=`${width}px` style="padding: 5px; font-size: 12px; font-weight:bold">
+    {englishTitle}
+</td>
+<td colspan={colspan} width=`${width*2}px` style="padding: 5px; font-size: 12px;">
+    {content}
+</td>
+<td dir="rtl" colspan={colspan} width=`${width}px` style="padding: 5px; font-size: 12px; font-weight:bold">
+    {arabicTitle}
+</td>

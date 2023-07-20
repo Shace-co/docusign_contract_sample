@@ -1,0 +1,116 @@
+---
+import HeaderLine from '../components/HeaderLine.astro';
+import Logo from '../components/Logo.astro';
+import Page from '../components/Page.astro';
+import Table from '../components/Table.astro';
+import TableData from '../components/TableData/Td.astro';
+import TableHeader from '../components/TableData/Th.astro';
+import TRHeader from '../components/TableRows/Header.astro';
+import TableRowsOdd from '../components/TableRows/Odd.astro';
+import TableRowsEven from '../components/TableRows/Even.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+	<Page>
+		<HeaderLine />
+		<Logo />
+		<Table>
+			<TRHeader>
+				<TableHeader dir="ltr" colspan="3"><b>Contract</b></TableHeader>
+				<TableHeader dir="rtl" colspan="3"><b>بيانات العقد</b></TableHeader>
+			</TRHeader>
+			<TableRowsEven>
+				<TableData colspan="1" width="75" arabicTitle="نوع العقد" englishTitle="Contract Type" content="جديد"></TableData>
+				<TableData colspan="1" width="75"  arabicTitle="رقم سجل العقد" englishTitle="Contract No." content="123456789"></TableData>
+			</TableRowsOdd>
+			<TableRowsOdd>
+				<TableData colspan="1" width="75" arabicTitle="نوع العقد" englishTitle="Contract Type" content="جديد"></TableData>
+				<TableData colspan="1" width="75"  arabicTitle="رقم سجل العقد" englishTitle="Contract No." content="123456789"></TableData>
+			</TableRowsOdd>
+			<TableRowsEven>
+				<TableData colspan="1" width="75" arabicTitle="نوع العقد" englishTitle="Contract Type" content="جديد"></TableData>
+				<TableData colspan="1" width="75"  arabicTitle="رقم سجل العقد" englishTitle="Contract No." content="123456789"></TableData>
+			</TableRowsEven>
+		</Table>
+		<Table>
+			<TRHeader>
+				<TableHeader dir="ltr" colspan="3"><b>Contract</b></TableHeader>
+				<TableHeader dir="rtl" colspan="3"><b>بيانات العقد</b></TableHeader>
+			</TRHeader>
+			<TableRowsEven>
+				<TableData colspan="1" width="75" arabicTitle="نوع العقد" englishTitle="Contract Type" content="جديد"></TableData>
+				<TableData colspan="1" width="75"  arabicTitle="رقم سجل العقد" englishTitle="Contract No." content="123456789"></TableData>
+			</TableRowsOdd>
+			<TableRowsOdd>
+				<TableData colspan="1" width="75" arabicTitle="نوع العقد" englishTitle="Contract Type" content="جديد"></TableData>
+				<TableData colspan="1" width="75"  arabicTitle="رقم سجل العقد" englishTitle="Contract No." content="123456789"></TableData>
+			</TableRowsOdd>
+			<TableRowsEven>
+				<TableData colspan="1" width="75" arabicTitle="نوع العقد" englishTitle="Contract Type" content="جديد"></TableData>
+				<TableData colspan="1" width="75"  arabicTitle="رقم سجل العقد" englishTitle="Contract No." content="123456789"></TableData>
+			</TableRowsEven>
+		</Table>
+	</Page>
+
+	<Page>
+		<Table>
+			<TRHeader>
+				<TableHeader dir="ltr" colspan="3"><b>Lessor Data</b></TableHeader>
+				<TableHeader dir="rtl" colspan="3"><b>بيانات المؤجر</b></TableHeader>
+			</TRHeader>
+			<TableRowsEven>
+				<TableData colspan="2" width="75" arabicTitle="نوع العقد" englishTitle="Contract Type" content="جديد"></TableData>
+			</TableRowsOdd>
+			<TableRowsOdd>
+				<TableData colspan="1" width="75" arabicTitle="نوع العقد" englishTitle="Contract Type" content="جديد"></TableData>
+				<TableData colspan="1" width="75"  arabicTitle="رقم سجل العقد" englishTitle="Contract No." content="123456789"></TableData>
+			</TableRowsOdd>
+			<TableRowsEven>
+				<TableData colspan="1" width="75" arabicTitle="نوع العقد" englishTitle="Contract Type" content="جديد"></TableData>
+				<TableData colspan="1" width="75"  arabicTitle="رقم سجل العقد" englishTitle="Contract No." content="123456789"></TableData>
+			</TableRowsEven>
+		</Table>
+
+		<Table>
+			<TRHeader>
+				<TableHeader dir="ltr" colspan="3"><b>Lessor Data</b></TableHeader>
+				<TableHeader dir="rtl" colspan="3"><b>بيانات المؤجر</b></TableHeader>
+			</TRHeader>
+			<TableRowsEven>
+				<TableData colspan="2" width="75" arabicTitle="نوع العقد" englishTitle="Contract Type" content="جديد"></TableData>
+			</TableRowsOdd>
+			<TableRowsOdd>
+				<TableData colspan="1" width="75" arabicTitle="نوع العقد" englishTitle="Contract Type" content="جديد"></TableData>
+				<TableData colspan="1" width="75"  arabicTitle="رقم سجل العقد" englishTitle="Contract No." content="123456789"></TableData>
+			</TableRowsOdd>
+			<TableRowsEven>
+				<TableData colspan="1" width="75" arabicTitle="نوع العقد" englishTitle="Contract Type" content="جديد"></TableData>
+				<TableData colspan="1" width="75"  arabicTitle="رقم سجل العقد" englishTitle="Contract No." content="123456789"></TableData>
+			</TableRowsEven>
+		</Table>
+	</Page>
+
+	<Page>
+		<Table>
+			<TRHeader>
+				<TableHeader dir="ltr" colspan="3"><b>Lessor Data</b></TableHeader>
+				<TableHeader dir="rtl" colspan="3"><b>بيانات المؤجر</b></TableHeader>
+			</TRHeader>
+			<TableRowsEven>
+				<TableData colspan="2" width="75" arabicTitle="نوع العقد" englishTitle="Contract Type" content="جديد"></TableData>
+			</TableRowsOdd>
+		</Table>
+
+		<Table>
+			<TRHeader>
+				<TableHeader dir="ltr" colspan="3"><b>Lessor Data</b></TableHeader>
+				<TableHeader dir="rtl" colspan="3"><b>بيانات المؤجر</b></TableHeader>
+			</TRHeader>
+			<TableRowsEven>
+				<TableData colspan="2" width="75" arabicTitle="نوع العقد" englishTitle="Contract Type" content="جديد"></TableData>
+			</TableRowsOdd>
+		</Table>
+	</Page>
+
+</Layout>
